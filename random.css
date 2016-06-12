@@ -1,4 +1,61 @@
 ol {
 	border-style: solid;
-	border-color: grey;
+	border-color: #C0C0C0;
+	background-color: #C0C0C0;
+	padding: 20px;
+	padding-left: 50px;
+	
+	width: 250px;
+}
+.orbit	{
+	margin-left: 20px;
+}
+.extraterrestial {
+	text-align: center;
+}
+img {
+	max-width: 700px;
+}
+
+body {
+	max-width: 700px;
+	background-image: url("http://cache2.asset-cache.net/xd/137177577.jpg?v=1&c=IWSAsset&k=2&d=F2468F1845D6F4E8E6F0B1CDF67B55D173E7DAAD5CA5386952955955B0C75B70B34E09ACBB14300D");
+
+}
+
+footer	{
+	text-align: center;
+	background-color: #224787;
+}
+
+main {
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#pride	{
+	font-family: "Verdana";
+}
+
+a:visited {
+    color: #CCD270;
+}
+
+.warning {
+	position: fixed;
+	margin-left: 150px;
+	padding: 50px;
+	visibility: hidden;
+	text-align: center;
+	border: solid;
+	border-color: red;
+	background-color: #F9F9F9;
+
+}
+
+@media screen and (max-width: 500px) {
+	.warning	{
+		visibility: visible;
+	}
 }
